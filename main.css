@@ -1,121 +1,53 @@
 * {
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-body > header {
-    background-color: #2f3640;
-    padding: 16px 0;
-    color: #f5f6fa
-}
-
-header .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-header li {
-    display: inline;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    margin-left: 16px;
-}
-
-header li a {
-    color: #f5f6fa;
-    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
 }
 
 .container {
-    width: 1366px;
-    margin: 0 auto;
-}
-
-.articles {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.articles article img {
-   /* height: 180px; */
+    margin: 100px auto;
+    max-width: 600px;
     width: 100%;
 }
 
-.articles article {
-    width: 30%;
+input, button{
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 30px;
 }
 
-section {
-    padding: 16px 0;
-
+h1{
+    margin-bottom: 20px;
+    text-align: center;
 }
 
-section h2, .articles article {
-    margin-bottom: 16px;
-}
-
-.articles article h3 {
-    margin-top: 8px;
-    margin-bottom: 8px;
-}
-
-.articles article a {
-    background-color: blue;
+button{
+    background-color: rgba(2, 2, 68, 0.877);
     color: #fff;
-    padding: 8px;
-    display: inline-block;
-    text-decoration: none;
-    font-weight: bold;
-    margin-top: 8px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
 }
 
-.articles article a:hover {
-    text-decoration: underline;
+button:hover{
+    background-color: rgba(6, 6, 207, 0.582);
 }
 
-.articles article p, .articles article a {
-    font-family: Arial, Helvetica, sans-serif;
+#final-message {
+    margin-top: 30px;
+    padding:20px;
 }
 
-.articles article h3 {
-    font-size: 24px;
+.success {
+    background-color: rgb(37, 189, 37);
+    color: white;
 }
-
-section h2 {
-    font-size: 32px;
-}
-
-#sports {
-    background-color: rgba(0,255,0,0.1);
-}
-
-#sports .articles article a {
-    background-color: #009432;
-}
-
-#economy {
-    background-color: #f8f59f;
-}
-
-#economy .articles article a {
-    background-color: #ff9f1a;
-}
-
-#tecnology {
-    background-color: rgba(65, 105, 225, 0.3);
-}
-
-#tecnology .articles article a {
-    background-color: #1b1b6b;
-}
-
-#entertainment{
-    background-color: rgba(255, 0, 0, 0.2);
-}
-
-#entertainment .articles article a {
-    background-color: #c02c2c;
+.failure {
+    background-color: rgb(204, 37, 37);
+    color:white;
 }
