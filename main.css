@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(63, 63, 177);
+}
+
+.container {
+    width: 600px;
+    max-width: 100%;
+    padding-top: 24px;
+    margin: 0 auto;
+}
+
+h1 {
+    padding-bottom: 24px;
+    text-align: center;
+    color:aliceblue;
+}
+
+form {
+    display: block;
+}
+
+.form-campo, .botao-envio {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.form-campo label {
+    width: 100%;
+    display: block;
+    color:aliceblue;
+    font-weight: bold;
+}
+
+.form-campo input {
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 6px;
+}
+
+form button {
+    width: 30%;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 6px;
+    margin: 20px auto;
+    background-color: rgb(203, 255, 126);
+}
+
+form button:hover {
+    background-color: rgb(9, 167, 30);
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="./main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1> Formulário de Cadastro</h1>
+        <form>
+            <div class="form-campo">
+                <label for="nomeCompleto">Nome Completo:</label>
+                <input type="text" id="nomeCompleto">
+            </div>
+            <div class="form-campo">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email">
+            </div>
+            <div class="form-campo">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone">
+            </div>
+            <div class="form-campo">
+                <label for="cpf">CPF:</label>
+                <input id="cpf">
+            </div>
+            <div class="form-campo">
+                <label for="endereco">Endereço Completo:</label>
+                <input type="text" id="endereco">
+            </div>
+            <div class="form-campo">
+                <label for="cep">Cep:</label>
+                <input id="cep">
+            </div>
+            <div class="botao-envio">
+                <button type="submit">Enviar</button>
+            </div>        
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
